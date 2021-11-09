@@ -4,7 +4,6 @@
 * Mindmap
   * xmind
   * [processon](https://www.processon.com/diagrams)
-  * [COOGLE]()
 * Note
   * github
   * evernote
