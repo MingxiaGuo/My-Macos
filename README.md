@@ -50,7 +50,7 @@ Productivity for Mac
 * Confer
 * Code42
 * Falcon
-* Youbikey manager
+* Yubikey manager
 
 
 
