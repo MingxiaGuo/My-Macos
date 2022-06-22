@@ -2,20 +2,22 @@
 
 Productivity for Mac
 * Office
-  * Chrome: Fast & Secure Web Browser
+  * [Chrome](https://www.google.cn/intl/zh-CN/chrome/): Fast & Secure Web Browser
   * [Slack](https://slack.com/): A new way to communicate with your team.
   * Webex
   * Outlook
-  * Cisco AnyConnect
   * Box
   * Code42
-  * Global protect VPN
-  * Plus secure
-  * Tunnelblick
+  * Remote access
+   * Cisco AnyConnect
+   * Global protect VPN
+   * Plus secure
+   * Tunnelblick
   * Yubikey manager
   * Ludic
   * Confer
   * Falcon
+  * 
 * Develop
   * [Home-brew](https://brew.sh/): : The Missing Package Manager for macOS (or Linux)
   * [iTerm2](https://iterm2.com/index.html): A terminal emulator for macOS that does amazing things
