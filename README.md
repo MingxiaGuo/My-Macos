@@ -1,28 +1,29 @@
-# My-Macos
+# My-MacOS
 
 Productivity for Mac
-* Office
+* Office tool
   * [Chrome](https://www.google.cn/intl/zh-CN/chrome/): Fast & Secure Web Browser
   * [Slack](https://slack.com/): A new way to communicate with your team.
-  * Webex
-  * Outlook
-  * Box
-  * Code42
+  * [Webex](https://www.webex.com/): Calling, meetings, messaging, and events in the cloud for teams of all sizes.
+  * [Outlook](https://outlook.live.com/owa/): Email and calendar, together in one place
+  * [Box](https://www.box.com/home): 
+  * [Code42](https://www.code42.com/): Reimagined Enterprise Data Protection for Insider Risk
   * Remote access
-   * Cisco AnyConnect
-   * Global protect VPN
-   * Plus secure
-   * Tunnelblick
-  * Yubikey manager
+    * Cisco AnyConnect
+    * [Global protect VPN](https://www.paloaltonetworks.com/products/globalprotect): GlobalProtect™ is more than a VPN. It extends consistent security from Prisma Access and Next Generation Firewalls (NGFWs) to all users, everywhere
+   * [Plus secure](https://www.pulsesecure.net/products/)
+   * [Tunnelblick](https://tunnelblick.net/)
+   * [Teleport](https://goteleport.com/): The easiest, most secure way to access infrastructure.
+  * [Yubikey manager](https://www.yubico.com/support/download/yubikey-manager/)
+  * [1Password](https://1password.com/): The easiest way to store and use strong passwords.
   * Ludic
   * Confer
   * Falcon
-  * [1Password](https://1password.com/): The easiest way to store and use strong passwords.
+  * Dicate
 * Productivity tool
   * [Typora](https://typora.io/): A truly minimal markdown editor.
   * [draw.io](https://drawio-app.com/): The easiest way for Confluence teams to collaborate using diagrams.
   * [Alfred](https://www.alfredapp.com/): an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. 
-  * Dicate
   * [EuDic](https://www.eudic.net/v4/en/app/eudic): English Dictionary
   * Mindmap
     * [xmind](https://www.xmind.net/):  a full-featured mind mapping and brainstorming tool
@@ -38,7 +39,7 @@ Productivity for Mac
     * [坚果云](https://www.jianguoyun.com/d/home#/)
     * 百度网盘
   * [Logo](https://logomakr.com)
-* Develop
+* Development tool
   * [Home-brew](https://brew.sh/): : The Missing Package Manager for macOS (or Linux)
   * [iTerm2](https://iterm2.com/index.html): A terminal emulator for macOS that does amazing things
   * [oh-my-zsh](https://ohmyz.sh/): an framework for managing your zsh (Z shell) configuration. [My Setting](https://gist.github.com/MingxiaGuo/5152dbb26164ef738c9c40a0476ab4d3)
@@ -58,19 +59,7 @@ Productivity for Mac
 
 
 
-
-
-
-
-
 -----------------
-
-
-
-
-
-
-
 
 
 Connecting to GitHub with SSH https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
