@@ -12,7 +12,7 @@ Productivity for Mac
     * Cisco AnyConnect
     * [Global protect VPN](https://www.paloaltonetworks.com/products/globalprotect): GlobalProtect™ is more than a VPN. It extends consistent security from Prisma Access and Next Generation Firewalls (NGFWs) to all users, everywhere
    * [Plus secure](https://www.pulsesecure.net/products/)
-   * [Tunnelblick](https://tunnelblick.net/)
+   * [Tunnelblick](https://tunnelblick.net/): Free, open-source graphic user interface for OpenVPN on OS X
    * [Teleport](https://goteleport.com/): The easiest, most secure way to access infrastructure.
   * [Yubikey manager](https://www.yubico.com/support/download/yubikey-manager/)
   * [1Password](https://1password.com/): The easiest way to store and use strong passwords.
