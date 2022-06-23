@@ -17,7 +17,27 @@ Productivity for Mac
   * Ludic
   * Confer
   * Falcon
-  * 
+  * [1Password](https://1password.com/): The easiest way to store and use strong passwords.
+* Productivity tool
+  * [Typora](https://typora.io/): A truly minimal markdown editor.
+  * [draw.io](https://drawio-app.com/): The easiest way for Confluence teams to collaborate using diagrams.
+  * [Alfred](https://www.alfredapp.com/): an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. 
+  * Dicate
+  * [EuDic](https://www.eudic.net/v4/en/app/eudic): English Dictionary
+  * Mindmap
+    * [xmind](https://www.xmind.net/):  a full-featured mind mapping and brainstorming tool
+    * [processon](https://www.processon.com/diagrams)
+  * Note
+    * github
+    * evernote
+    * Notion
+    * Github Pages: [docsify](https://docsify.js.org/#/?id=docsify)
+  * Reading
+    * MarginNote 3 [1](https://sspai.com/post/47317) [2](https://sspai.com/post/54005)
+  * Disk
+    * [坚果云](https://www.jianguoyun.com/d/home#/)
+    * 百度网盘
+  * [Logo](https://logomakr.com)
 * Develop
   * [Home-brew](https://brew.sh/): : The Missing Package Manager for macOS (or Linux)
   * [iTerm2](https://iterm2.com/index.html): A terminal emulator for macOS that does amazing things
@@ -31,31 +51,16 @@ Productivity for Mac
       * Editors ranked according to their popularity:https://www.slant.co/topics/12/~best-programming-text-editors
   * [Postman](https://www.postman.com/): an API platform for building and using APIs.
   * [Docker](https://www.docker.com/)
+  * [Dash](https://kapeli.com/dash): an API Documentation Browser and Code Snippet Manager
+  * Anaconda-navigator
 
-* [Typora](https://typora.io/): A truly minimal markdown editor.
-* Mindmap
-  * [xmind](https://www.xmind.net/):  a full-featured mind mapping and brainstorming tool
-  * [processon](https://www.processon.com/diagrams)
-* Note
-  * github
-  * evernote
-  * Notion
-  * Github Pages: [docsify](https://docsify.js.org/#/?id=docsify)
-* Reading
-  * MarginNote 3 [1](https://sspai.com/post/47317) [2](https://sspai.com/post/54005)
-* Disk
-  * [坚果云](https://www.jianguoyun.com/d/home#/)
-  * 百度网盘
-* [Logo](https://logomakr.com)
-* [EuDic](https://www.eudic.net/v4/en/app/eudic): English Dictionary
 
-* [draw.io](https://drawio-app.com/): The easiest way for Confluence teams to collaborate using diagrams.
 
-* [Alfred](https://www.alfredapp.com/): an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. 
-* [Dash](https://kapeli.com/dash): an API Documentation Browser and Code Snippet Manager
-* [1Password](https://1password.com/): The easiest way to store and use strong passwords.
-* Anaconda-navigator
-* Dicate
+
+
+
+
+
 
 
 -----------------
