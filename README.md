@@ -41,7 +41,7 @@ Productivity for Mac
 * Develop
   * [Home-brew](https://brew.sh/): : The Missing Package Manager for macOS (or Linux)
   * [iTerm2](https://iterm2.com/index.html): A terminal emulator for macOS that does amazing things
-  * [oh-my-zsh](https://ohmyz.sh/): an framework for managing your zsh (Z shell) configuration
+  * [oh-my-zsh](https://ohmyz.sh/): an framework for managing your zsh (Z shell) configuration. [My Setting](https://gist.github.com/MingxiaGuo/5152dbb26164ef738c9c40a0476ab4d3)
   * [git](https://git-scm.com/): A free and open source distributed version control system
   * Editors
     * [VIM](https://www.vim.org/): The simplest but one of the most professional editor.
@@ -95,18 +95,6 @@ git config --global --unset https.proxy #取消https代理
 
 ```
 
-
-
-
-
-MacOS command:
-```
-/usr/bin/ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)” # Install homebrew
-
-brew cask install homebrew/cask-versions/java8 # install JDK
-
-brew install kafka # install Kafka
-```
 
 
 ## Related
