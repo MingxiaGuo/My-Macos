@@ -44,12 +44,10 @@ Productivity for Mac
   * [iTerm2](https://iterm2.com/index.html): A terminal emulator for macOS that does amazing things
   * [oh-my-zsh](https://ohmyz.sh/): an framework for managing your zsh (Z shell) configuration. [My Setting](https://gist.github.com/MingxiaGuo/5152dbb26164ef738c9c40a0476ab4d3)
   * [git](https://git-scm.com/): A free and open source distributed version control system
-  * Editors
+  * Editors: Editors ranked according to their popularity:https://www.slant.co/topics/12/~best-programming-text-editors
     * [VIM](https://www.vim.org/): The simplest but one of the most professional editor.
     * [Emacos](https://www.gnu.org/software/emacs/): One of the biggest competitor to VIM
     * [VSCode](https://github.com/Microsoft/vscode): Code editing. Redefined.
-    * A list of all editors: 
-      * Editors ranked according to their popularity:https://www.slant.co/topics/12/~best-programming-text-editors
   * [Postman](https://www.postman.com/): an API platform for building and using APIs.
   * [Docker](https://www.docker.com/)
   * [Dash](https://kapeli.com/dash): an API Documentation Browser and Code Snippet Manager
