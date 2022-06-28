@@ -33,6 +33,7 @@ Productivity for Mac
     * evernote
     * Notion
     * Github Pages: [docsify](https://docsify.js.org/#/?id=docsify)
+    * [Hugo](https://gohugo.io/): The world’s fastest framework for building websites
   * Reading
     * MarginNote 3 [1](https://sspai.com/post/47317) [2](https://sspai.com/post/54005)
   * Disk
