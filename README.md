@@ -1,4 +1,4 @@
-# My-Macos
+# My-MacOS
 
 ## Productivity tool
 * [Chrome](http://www.google.cn/chrome/index.html): Fast & Secure Web Browser
@@ -82,6 +82,8 @@
 ## Github
 
 
+
+
 Connecting to GitHub with SSH https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
 
 git多账号管理：https://zhuanlan.zhihu.com/p/62071906
@@ -102,6 +104,7 @@ git config --global --unset http.proxy #取消http代理
 git config --global --unset https.proxy #取消https代理
 
 ```
+
 
 
 
