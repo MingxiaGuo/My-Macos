@@ -3,8 +3,9 @@
 ## Productivity tool
 * [Chrome](http://www.google.cn/chrome/index.html): Fast & Secure Web Browser
 * [X] [Firefox](https://www.mozilla.org/en-US/firefox/new/): Get the browser that protects what’s important
+* [X] [Xmind](https://www.xmind.net/):  a full-featured mind mapping and brainstorming tool
+* [X] [ClashX](https://github.com/bannedbook/ClashX/releases): ClashX 是一个拥有 GUI 界面基于 Clash 可自定义规则的 macOS 代理应用。
 * Mindmap
-	* [xmind](https://www.xmind.net/):  a full-featured mind mapping and brainstorming tool
 	* [processon](https://www.processon.com/diagrams)
 * Note
 	* Notion
@@ -41,8 +42,8 @@
 * [X] [iTerm2](https://iterm2.com/index.html): A terminal emulator for macOS that does amazing things
 * [Home-brew](https://brew.sh/): : The Missing Package Manager for macOS (or Linux)
 * [oh-my-zsh](https://ohmyz.sh/): an framework for managing your zsh (Z shell) configuration
-* [git](https://git-scm.com/): A free and open source distributed version control system
 * [X] [VSCode](https://github.com/Microsoft/vscode): Code editing.Redefined.
+* [git](https://git-scm.com/): A free and open source distributed version control system
 * [Postman](https://www.postman.com/): an API platform for building and using APIs.
 * [Docker](https://www.docker.com/)
 * [Dash](https://kapeli.com/dash): an API Documentation Browser and Code Snippet Manager
