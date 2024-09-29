@@ -2,7 +2,7 @@
 
 ## Productivity tool
 * [Chrome](http://www.google.cn/chrome/index.html): Fast & Secure Web Browser
-* Firefox
+* [X] [Firefox](https://www.mozilla.org/en-US/firefox/new/): Get the browser that protects what’s important
 * Mindmap
 	* [xmind](https://www.xmind.net/):  a full-featured mind mapping and brainstorming tool
 	* [processon](https://www.processon.com/diagrams)
@@ -38,20 +38,17 @@
 	* paperlib: https://paperlib.app/en/
 	* zotero and zoteto chrome plugin
 ## Development tool
-* [Home-brew](https://brew.sh/): : The Missing Package Manager for macOS (or Linux)
 * [iTerm2](https://iterm2.com/index.html): A terminal emulator for macOS that does amazing things
+* [Home-brew](https://brew.sh/): : The Missing Package Manager for macOS (or Linux)
 * [oh-my-zsh](https://ohmyz.sh/): an framework for managing your zsh (Z shell) configuration
 * [git](https://git-scm.com/): A free and open source distributed version control system
-* Code Editors
-	* [VIM](https://www.vim.org/): The simplest but one of the most professional editor.
-	* [Emacos](https://www.gnu.org/software/emacs/): One of the biggest competitor to VIM
-	* [VSCode](https://github.com/Microsoft/vscode): Code editing.Redefined.
-	* A list of all editors: 
-		* Editors ranked according to their popularity:https://www.slant.co/topics/12/~best-programming-text-editors
+* [VSCode](https://github.com/Microsoft/vscode): Code editing.Redefined.
 * [Postman](https://www.postman.com/): an API platform for building and using APIs.
 * [Docker](https://www.docker.com/)
 * [Dash](https://kapeli.com/dash): an API Documentation Browser and Code Snippet Manager
+* [Parallels Desktop]: Run Windows on Mac
 * Anaconda-navigator
+
 ## Office tool
 * Remote access
 	* Cisco AnyConnect
@@ -81,16 +78,9 @@
 
 ## Github
 
-
-
-
 Connecting to GitHub with SSH https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
 
 git多账号管理：https://zhuanlan.zhihu.com/p/62071906
-
-
-
-
 
 Mac 命令行终端 设置Proxy: https://blog.csdn.net/weixin_40390772/article/details/111312319
 
@@ -107,10 +97,8 @@ git config --global --unset https.proxy #取消https代理
 
 
 
+## MacOS command
 
-
-
-MacOS command:
 ```
 /usr/bin/ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)” # Install homebrew
 
@@ -123,7 +111,7 @@ brew install kafka # install Kafka
 
 [macos setup guide](https://sourabhbajaj.com/mac-setup/)
 
-VScode
+## VScode
 VSCode：
 extension：go,
 
@@ -134,12 +122,12 @@ obsidian 社区插件汇总：https://airtable.com/shrdmp10Lxmf5Wmgl/tblJqnWpcKU
 
  
  **Copy button for code blocks**
-* ### **Customizable Menu & ToolBar & Page Header and Title Bar**
-* ### **Excalidraw**
-* ### **Media Extended & Media Extended BiliBili Plugin**
-* ### **Note Refactor**
-* ### **Mind Map**
-* ### **Privacy Glasses**
-* ### **Obsidian Charts**
-* ### **Pandoc Plugin**
+* Customizable Menu & ToolBar & Page Header and Title Bar
+* Excalidraw
+* Media Extended & Media Extended BiliBili Plugin
+* Note Refactor
+* Mind Map
+* Privacy Glasses
+* Obsidian Charts
+* Pandoc Plugin
 * https://zhuanlan.zhihu.com/p/491766682
