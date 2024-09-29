@@ -26,7 +26,7 @@
 * [Logo](https://logomakr.com)
 * [EuDic](https://www.eudic.net/v4/en/app/eudic): English Dictionary
 * [Slack](https://slack.com/): A new way to communicate with your team.
-* [draw.io](https://drawio-app.com/): The easiest way for Confluence teams to collaborate using diagrams.
+* [X] [draw.io](https://drawio-app.com/): The easiest way for Confluence teams to collaborate using diagrams.
 * excalidraw
 * [Raycast](https://www.raycast.com/) is a blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more.
 * [Alfred](https://www.alfredapp.com/): an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more.
@@ -38,11 +38,11 @@
 	* paperlib: https://paperlib.app/en/
 	* zotero and zoteto chrome plugin
 ## Development tool
-* [iTerm2](https://iterm2.com/index.html): A terminal emulator for macOS that does amazing things
+* [X] [iTerm2](https://iterm2.com/index.html): A terminal emulator for macOS that does amazing things
 * [Home-brew](https://brew.sh/): : The Missing Package Manager for macOS (or Linux)
 * [oh-my-zsh](https://ohmyz.sh/): an framework for managing your zsh (Z shell) configuration
 * [git](https://git-scm.com/): A free and open source distributed version control system
-* [VSCode](https://github.com/Microsoft/vscode): Code editing.Redefined.
+* [X] [VSCode](https://github.com/Microsoft/vscode): Code editing.Redefined.
 * [Postman](https://www.postman.com/): an API platform for building and using APIs.
 * [Docker](https://www.docker.com/)
 * [Dash](https://kapeli.com/dash): an API Documentation Browser and Code Snippet Manager
@@ -95,6 +95,7 @@ git config --global --unset https.proxy #取消https代理
 
 ```
 
+生成新的ssh key：https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 
 ## MacOS command
