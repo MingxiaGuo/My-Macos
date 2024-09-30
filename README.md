@@ -5,17 +5,16 @@
 * [X] [Firefox](https://www.mozilla.org/en-US/firefox/new/): Get the browser that protects what’s important
 * [X] [Xmind](https://www.xmind.net/):  a full-featured mind mapping and brainstorming tool
 * [X] [ClashX](https://github.com/bannedbook/ClashX/releases): ClashX 是一个拥有 GUI 界面基于 Clash 可自定义规则的 macOS 代理应用。
+* [X] [Bitwarden](https://bitwarden.com/): The most trusted password manager
+* [X] [draw.io](https://drawio-app.com/): The easiest way for Confluence teams to collaborate using diagrams.
+* [X] [obsidian](https://obsidian.md/): markdown 编辑器
 * Mindmap
 	* [processon](https://www.processon.com/diagrams)
 * Note
 	* Notion
 	* Github Pages: [docsify](https://docsify.js.org/#/?id=docsify) 
 	* Blog framework: [Hexo](https://hexo.io/)
-	* [obsidian](https://obsidian.md/): markdown 编辑器; [官方文档](https://publish.obsidian.md/chinesehelp/06+ob%E5%AE%98%E6%96%B9%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3%EF%BC%88%E8%8A%82%E9%80%89%EF%BC%89/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BD%A0%E7%9A%84%E7%AC%94%E8%AE%B0+by+ob%E5%AE%98%E6%96%B9#%E8%B0%83%E6%95%B4%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F)
-		* 第三方插件：
-			* Diagrams
-			* Excalidraw
-			* Highlightr
+	* [X] [obsidian](https://obsidian.md/): markdown 
 	* [Typora](https://typora.io/): A truly minimal markdown editor.
 	* evernote
 	* [Hugo](https://gohugo.io/): The world’s fastest framework for building websites
@@ -27,7 +26,6 @@
 * [Logo](https://logomakr.com)
 * [EuDic](https://www.eudic.net/v4/en/app/eudic): English Dictionary
 * [Slack](https://slack.com/): A new way to communicate with your team.
-* [X] [draw.io](https://drawio-app.com/): The easiest way for Confluence teams to collaborate using diagrams.
 * excalidraw
 * [Raycast](https://www.raycast.com/) is a blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more.
 * [Alfred](https://www.alfredapp.com/): an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more.
@@ -38,16 +36,17 @@
 * Paper management
 	* paperlib: https://paperlib.app/en/
 	* zotero and zoteto chrome plugin
+   
 ## Development tool
 * [X] [iTerm2](https://iterm2.com/index.html): A terminal emulator for macOS that does amazing things
 * [Home-brew](https://brew.sh/): : The Missing Package Manager for macOS (or Linux)
 * [oh-my-zsh](https://ohmyz.sh/): an framework for managing your zsh (Z shell) configuration
 * [X] [VSCode](https://github.com/Microsoft/vscode): Code editing.Redefined.
+* [X] [Parallels Desktop]: Run Windows on Mac
 * [git](https://git-scm.com/): A free and open source distributed version control system
 * [Postman](https://www.postman.com/): an API platform for building and using APIs.
 * [Docker](https://www.docker.com/)
 * [Dash](https://kapeli.com/dash): an API Documentation Browser and Code Snippet Manager
-* [Parallels Desktop]: Run Windows on Mac
 * Anaconda-navigator
 
 ## Office tool
@@ -151,12 +150,16 @@ extension：
 
 obsidian 社区插件汇总：https://airtable.com/shrdmp10Lxmf5Wmgl/tblJqnWpcKURTjysX
 
+[官方文档](https://publish.obsidian.md/chinesehelp/06+ob%E5%AE%98%E6%96%B9%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3%EF%BC%88%E8%8A%82%E9%80%89%EF%BC%89/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BD%A0%E7%9A%84%E7%AC%94%E8%AE%B0+by+ob%E5%AE%98%E6%96%B9#%E8%B0%83%E6%95%B4%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F)
+
+   
 我的插件：
 
 - Advanced Tables
 - Copy button for code blocks
 - Customizable Menu & ToolBar & Page Header and Title Bar
 - Excalidraw
+- Highlightr
 - Media Extended & Media Extended BiliBili Plugin
 - Note Refactor
 - Mind Map
