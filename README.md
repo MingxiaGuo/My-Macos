@@ -75,9 +75,54 @@
 * [Interesting macOS apps](https://github.com/learn-anything/macos-apps)
 * [Open Source macOS apps](https://github.com/serhii-londar/open-source-mac-os-apps)
 * [My wonderful world of macOS](https://github.com/nikitavoloboev/my-mac-os)
+* [macos setup guide](https://sourabhbajaj.com/mac-setup/)
+
+## Applications
+
+### iTerm2
+
+vi .zshrc
+
+Clone this repository into $ZSH_CUSTOM/plugins (by default ~/.oh-my-zsh/custom/plugins)
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting
+```
 
 
-## Github
+
+iTerm2 Setting:
+
+* 设置 iTerm2 为默认终端
+
+  （菜单栏) iTerm2 -> Make iTerm2 Default Term
+* 全局热键启动和关闭 iTerm2
+
+  偏好设置 preferences -> Keys -> Hotkey，勾选Show/hide iTerm2 with a system-wide hotkey，将热键设置为 command+i
+* 修改Terminal中的主机名
+
+  sudo scutil --set HostName MacBookPro
+* 透明度
+
+  偏好设置 preferences -> Profiles，右侧找到window选项卡，拖动Transparency调整。
+* 导入主题（配色方案）
+
+  个人比较喜欢 Dracula 系列，因此选择了 Dracula 的 iTerm 2 主题，按照安装步骤下载并导入。
+  然后在 iTerm2 > Preferences > Profiles > Colors 中选择该主题，并将其设置问默认。
+  iterm2 有诸多配色方案，除了上面我使用的，还有这些选择：
+
+  [x] 大名鼎鼎的solarized配色：https://github.com/altercation/solarized
+  [x] 200+配色的Color Schemes： https://github.com/mbadolato/iTerm2-Color-Schemes
+* Colorize Your Tabs
+
+  View --> Tab Color
+* 命令提示和历史命令补全：终端层面就有着命令提示和历史命令补全功能，按下 Cmd+; 即可看到命令提示，Shift+Cmd+; 可看到历史命令。
+
+### Github
+
+生成新的ssh key：https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 Connecting to GitHub with SSH https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
 
@@ -96,10 +141,32 @@ git config --global --unset https.proxy #取消https代理
 
 ```
 
-生成新的ssh key：https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+### VScode
+
+extension：
+
+- go
+
+### Obsidian
+
+obsidian 社区插件汇总：https://airtable.com/shrdmp10Lxmf5Wmgl/tblJqnWpcKURTjysX
+
+我的插件：
+
+- Advanced Tables
+- Copy button for code blocks
+- Customizable Menu & ToolBar & Page Header and Title Bar
+- Excalidraw
+- Media Extended & Media Extended BiliBili Plugin
+- Note Refactor
+- Mind Map
+- Privacy Glasses
+- Obsidian Charts
+- Pandoc Plugin
+- https://zhuanlan.zhihu.com/p/491766682
 
 
-## MacOS command
+### MacOS command
 
 ```
 /usr/bin/ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)” # Install homebrew
@@ -111,25 +178,4 @@ brew install kafka # install Kafka
 
 
 
-[macos setup guide](https://sourabhbajaj.com/mac-setup/)
 
-## VScode
-VSCode：
-extension：go,
-
-## Obsidian
-obsidian 社区插件汇总：https://airtable.com/shrdmp10Lxmf5Wmgl/tblJqnWpcKURTjysX
-我的插件：
-*  **Advanced Tables**
-
- 
- **Copy button for code blocks**
-* Customizable Menu & ToolBar & Page Header and Title Bar
-* Excalidraw
-* Media Extended & Media Extended BiliBili Plugin
-* Note Refactor
-* Mind Map
-* Privacy Glasses
-* Obsidian Charts
-* Pandoc Plugin
-* https://zhuanlan.zhihu.com/p/491766682
