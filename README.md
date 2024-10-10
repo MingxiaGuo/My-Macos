@@ -4,10 +4,11 @@
 * [Chrome](http://www.google.cn/chrome/index.html): Fast & Secure Web Browser
 * [X] [Firefox](https://www.mozilla.org/en-US/firefox/new/): Get the browser that protects what’s important
 * [X] [Xmind](https://www.xmind.net/):  a full-featured mind mapping and brainstorming tool
-* [X] [ClashX](https://github.com/bannedbook/ClashX/releases): ClashX 是一个拥有 GUI 界面基于 Clash 可自定义规则的 macOS 代理应用。
+* [X] [ClashX](https://github.com/bannedbook/ClashX/releases): ClashX 是一个拥有 GUI 界面基于 Clash 可自定义规则的 macOS 代理应用。VPS：https://w1.v2ai.top/user
 * [X] [Bitwarden](https://bitwarden.com/): The most trusted password manager
 * [X] [draw.io](https://drawio-app.com/): The easiest way for Confluence teams to collaborate using diagrams.
 * [X] [obsidian](https://obsidian.md/): markdown 编辑器
+* [X] 百度网盘
 * Mindmap
 	* [processon](https://www.processon.com/diagrams)
 * Note
@@ -22,7 +23,7 @@
 	* MarginNote 3 [1](https://sspai.com/post/47317) [2](https://sspai.com/post/54005)
 * Disk
 	* [坚果云](https://www.jianguoyun.com/d/home#/)
-	* 百度网盘
+	* [X] 百度网盘
 * [Logo](https://logomakr.com)
 * [EuDic](https://www.eudic.net/v4/en/app/eudic): English Dictionary
 * [Slack](https://slack.com/): A new way to communicate with your team.
@@ -38,12 +39,12 @@
 	* zotero and zoteto chrome plugin
    
 ## Development tool
+* [X] Macos Xcode tool
 * [X] [iTerm2](https://iterm2.com/index.html): A terminal emulator for macOS that does amazing things
-* [Home-brew](https://brew.sh/): : The Missing Package Manager for macOS (or Linux)
-* [oh-my-zsh](https://ohmyz.sh/): an framework for managing your zsh (Z shell) configuration
+* [X] [Home-brew](https://brew.sh/): : The Missing Package Manager for macOS (or Linux)
+* [X] [oh-my-zsh](https://ohmyz.sh/): an framework for managing your zsh (Z shell) configuration
 * [X] [VSCode](https://github.com/Microsoft/vscode): Code editing.Redefined.
 * [X] [Parallels Desktop]: Run Windows on Mac
-* [git](https://git-scm.com/): A free and open source distributed version control system
 * [Postman](https://www.postman.com/): an API platform for building and using APIs.
 * [Docker](https://www.docker.com/)
 * [Dash](https://kapeli.com/dash): an API Documentation Browser and Code Snippet Manager
@@ -78,15 +79,54 @@
 
 ## Applications
 
+### ClashX
+
+终端使用ClashX 的方式：
+手动执行命令
+```bash
+export http_proxy=http://127.0.0.1:7890
+export https_proxy=$http_proxy
+
+# 7890 是 http 代理对应的端口，请不要照抄作业，根据你的实际情况修改。你可以在 Clash 的设置界面中查找代理端口信息
+```
+
+使用脚本：
+```
+    /bin/bash => .bash_profile
+    /bin/zsh => .zprofile
+```
+然后执行安装脚本（追加内容 + 生效），注意一定根据要上面结果修改.bash_profile 名称：
+```bash
+cat > ~/.bash_profile << EOF
+function proxy_on() {
+    export http_proxy=http://127.0.0.1:7890
+    export https_proxy=\$http_proxy
+    echo -e "终端代理已开启。"
+}
+
+function proxy_off(){
+    unset http_proxy https_proxy
+    echo -e "终端代理已关闭。"
+}
+EOF
+
+source ~/.bash_profile
+```
+打开代理 :proxy_on
+
+关闭代理: proxy_off
+
 ### iTerm2
 
 vi .zshrc
 
 Clone this repository into $ZSH_CUSTOM/plugins (by default ~/.oh-my-zsh/custom/plugins)
 
-```
+```bash
+# 命令提醒
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
+# 高亮
 git clone https://github.com/zsh-users/zsh-syntax-highlighting
 ```
 
@@ -140,11 +180,10 @@ git config --global --unset https.proxy #取消https代理
 
 ```
 
-### VScode
+### VSCode
 
-extension：
+VSCode登陆账号同步设置信息，github账号
 
-- go
 
 ### Obsidian
 
@@ -154,7 +193,6 @@ obsidian 社区插件汇总：https://airtable.com/shrdmp10Lxmf5Wmgl/tblJqnWpcKU
 
    
 我的插件：
-
 - Advanced Tables
 - Copy button for code blocks
 - Customizable Menu & ToolBar & Page Header and Title Bar
@@ -170,15 +208,6 @@ obsidian 社区插件汇总：https://airtable.com/shrdmp10Lxmf5Wmgl/tblJqnWpcKU
 
 
 ### MacOS command
-
-```
-/usr/bin/ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)” # Install homebrew
-
-brew cask install homebrew/cask-versions/java8 # install JDK
-
-brew install kafka # install Kafka
-```
-
 
 
 
