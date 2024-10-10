@@ -81,7 +81,7 @@
 
 ### ClashX
 
-终端使用ClashX 的方式：
+终端使用ClashX 的方式：https://weilining.github.io/294.html
 手动执行命令
 ```bash
 export http_proxy=http://127.0.0.1:7890
