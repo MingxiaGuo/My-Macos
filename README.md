@@ -183,7 +183,17 @@ git config --global --unset https.proxy #取消https代理
 ### VSCode
 
 VSCode登陆账号同步设置信息，github账号
+安装和配置 Visual Studio Code for Go 开发：https://learn.microsoft.com/zh-cn/azure/developer/go/configure-visual-studio-code
 
+## Go 安装包问题
+
+1. timeout
+go env -w GOPROXY=https://goproxy.cn,direct
+sudo go install -v golang.org/x/tools/gopls@latest
+
+2. permission denied
+sudo chown -R $(whoami) /usr/local/go
+sudo chown -R $(whoami) /Users/gmx/Library/Caches/go-build
 
 ### Obsidian
 
