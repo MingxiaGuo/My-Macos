@@ -205,12 +205,18 @@ obsidian 社区插件汇总：https://airtable.com/shrdmp10Lxmf5Wmgl/tblJqnWpcKU
 
 [官方文档](https://publish.obsidian.md/chinesehelp/06+ob%E5%AE%98%E6%96%B9%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3%EF%BC%88%E8%8A%82%E9%80%89%EF%BC%89/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BD%A0%E7%9A%84%E7%AC%94%E8%AE%B0+by+ob%E5%AE%98%E6%96%B9#%E8%B0%83%E6%95%B4%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F)
 
+obsidian设置
+* 取消“设置->文件链接->使用wiki链接”这一项。
+* “设置->文件链接”中新附件的位置为“当前文件夹的子文件夹”。
+* Community plugins --> Turn on Community plugins
+    * xmind viewer
+    * Excalidraw
    
 我的插件：
-- Advanced Tables
-- Copy button for code blocks
-- Customizable Menu & ToolBar & Page Header and Title Bar
-- Excalidraw
+* Advanced Tables
+* Copy button for code blocks
+* Customizable Menu & ToolBar & Page Header and Title Bar
+
 - Highlightr
 - Media Extended & Media Extended BiliBili Plugin
 - Note Refactor
@@ -219,6 +225,10 @@ obsidian 社区插件汇总：https://airtable.com/shrdmp10Lxmf5Wmgl/tblJqnWpcKU
 - Obsidian Charts
 - Pandoc Plugin
 - https://zhuanlan.zhihu.com/p/491766682
+
+
+
+
 
 
 ### MacOS command
