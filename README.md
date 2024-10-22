@@ -230,8 +230,7 @@ obsidian设置
 
 
 
-
 ### MacOS command
-
+brew install tree
 
 
