@@ -129,11 +129,11 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # 高亮
 git clone https://github.com/zsh-users/zsh-syntax-highlighting
 
-
 # edit .zshrc
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
-
+https://www.cnblogs.com/HGNET/p/18565051
+https://liarrdev.github.io/post/macOS-iTerm2-Beautifying-Configuration/
 
 
 iTerm2 Setting:
