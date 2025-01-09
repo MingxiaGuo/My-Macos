@@ -1,5 +1,5 @@
 # My-MacOS
-
+https://github.com/command-z-z/dotfiles
 ## Productivity tool
 * [Chrome](http://www.google.cn/chrome/index.html): Fast & Secure Web Browser
 * [X] [Firefox](https://www.mozilla.org/en-US/firefox/new/): Get the browser that protects what’s important
