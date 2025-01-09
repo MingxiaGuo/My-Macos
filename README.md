@@ -116,13 +116,52 @@ source ~/.bash_profile
 
 关闭代理: proxy_off
 
-### iTerm2
+### iTerm2 & zsh
 
+#### iTerm2 Setting
+
+* 安装iterm2
+  brew install --cask iterm2
+  
+* 设置 iTerm2 为默认终端
+  （菜单栏) iTerm2 -> Make iTerm2 Default Term
+  
+* 全局热键启动和关闭 iTerm2
+  偏好设置 preferences -> Keys -> Hotkey，勾选Show/hide iTerm2 with a system-wide hotkey，将热键设置为 command+i
+  
+* 修改Terminal中的主机名
+  sudo scutil --set HostName MacBookPro
+  
+* 透明度
+  偏好设置 preferences -> Profiles，右侧找到window选项卡，拖动Transparency调整。
+  
+* 导入主题（iterm2配色方案）
+  个人比较喜欢 Dracula 系列，因此选择了 Dracula 的 iTerm 2 主题，按照安装步骤下载并导入。
+  然后在 iTerm2 > Settings > Profiles > Colors Presets --> Import 中选择该主题，并将其设置问默认。
+  iterm2 有诸多配色方案，：
+  * Dracula: git clone https://github.com/dracula/iterm.git
+  * material-design-colors: https://github.com/MartinSeeler/iterm2-material-design
+  * 大名鼎鼎的solarized配色：https://github.com/altercation/solarized
+  * 200+配色的Color Schemes： https://github.com/mbadolato/iTerm2-Color-Schemes
+    
+* Colorize Your Tabs
+  View --> Tab Color
+
+* 命令提示和历史命令补全：终端层面就有着命令提示和历史命令补全功能，按下 Cmd+; 即可看到命令提示，Shift+Cmd+; 可看到历史命令。
+
+#### zsh setting
 vi .zshrc
 
 Clone this repository into $ZSH_CUSTOM/plugins (by default ~/.oh-my-zsh/custom/plugins)
 
 ```bash
+# 安装 zsh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install zsh
+
+# 安装oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # 命令提醒
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
@@ -131,37 +170,31 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting
 
 # edit .zshrc
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+
+# 安装 powerline fonts
+git clone https://github.com/powerline/fonts.git
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+After that, open the iTerm terminal, go to the "Preferences" and click on the "Profiles" tab (iTerm2 > Preferences > Profiles > text > font > MesloLGS NF for powerline 14).
+
+# 安装powerlevel10k 美化
+https://github.com/romkatv/powerlevel10k
+https://juejin.cn/post/7293342627814244367#heading-4
+重新配置：p10k configure
+其他主题：https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+
+# zsh plugins
+https://github.com/unixorn/awesome-zsh-plugins
 ```
 https://www.cnblogs.com/HGNET/p/18565051
 https://liarrdev.github.io/post/macOS-iTerm2-Beautifying-Configuration/
 
-
-iTerm2 Setting:
-
-* 设置 iTerm2 为默认终端
-
-  （菜单栏) iTerm2 -> Make iTerm2 Default Term
-* 全局热键启动和关闭 iTerm2
-
-  偏好设置 preferences -> Keys -> Hotkey，勾选Show/hide iTerm2 with a system-wide hotkey，将热键设置为 command+i
-* 修改Terminal中的主机名
-
-  sudo scutil --set HostName MacBookPro
-* 透明度
-
-  偏好设置 preferences -> Profiles，右侧找到window选项卡，拖动Transparency调整。
-* 导入主题（配色方案）
-
-  个人比较喜欢 Dracula 系列，因此选择了 Dracula 的 iTerm 2 主题，按照安装步骤下载并导入。
-  然后在 iTerm2 > Preferences > Profiles > Colors 中选择该主题，并将其设置问默认。
-  iterm2 有诸多配色方案，除了上面我使用的，还有这些选择：
-
-  [x] 大名鼎鼎的solarized配色：https://github.com/altercation/solarized
-  [x] 200+配色的Color Schemes： https://github.com/mbadolato/iTerm2-Color-Schemes
-* Colorize Your Tabs
-
-  View --> Tab Color
-* 命令提示和历史命令补全：终端层面就有着命令提示和历史命令补全功能，按下 Cmd+; 即可看到命令提示，Shift+Cmd+; 可看到历史命令。
+#### 技巧
+```
+alias
+```
 
 ### Github
 
