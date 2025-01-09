@@ -28,6 +28,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # Install commands 
 brew install lsd
+brew install autojump
+brew install bat
 
 # tmux
 echo "Installing tmux..."
